@@ -1,4 +1,14 @@
-# ENHS File Format
+# Enhancement Spot File Format
+
+## Object Type Information
+
+Object Type | Description | Group
+:--- | :--- | :---
+ENHS | Enhancement Spot | Enhancements
+
+**Limitation**: The current version of the file format covers BAdIs only.
+
+## File Structure
 
 File | Cardinality | Definition | Schema | Example
 :--- | :---  | :--- | :--- | :---

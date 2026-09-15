@@ -1,4 +1,12 @@
-# NROB File Format
+# Number Range Object File Format
+
+## Object Type Information
+
+Object Type | Description | Group
+:--- | :--- | :---
+NROB | Number Range Object | Number Range Management
+
+## File Structure
 
 File | Cardinality | Definition | Schema | Example
 :--- | :---  | :--- | :--- | :---

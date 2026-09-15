@@ -26,12 +26,17 @@ Summarize the issue well. Here are some guidelines:
 Feedback, especially bug reports, is always welcome. However, our capacity as a team is limited -- we cannot answer specific project or consultation requests, nor can we invest time in fleshing out what might be a bug. Because of this, we reserve the right to close or not process issue reports that do not contain enough information. We also do not guarantee that every well-documented issue will be fixed.
 
 ## Contributing Code
-We welcome contributions to our codebase. Before you start your first contribution, here are some things you should know:
+We welcome contributions to our codebase.
 
-Create [pull requests](https://github.com/SAP/abap-file-formats/compare)
-if you know exactly what you want to change, and how.
-They are most welcome, and may range
-from minor format corrections to adding whole sections.
+Before you start your first contribution, please refer to [the contribution guidelines for SAP open source projects](https://github.com/SAP/.github/blob/main/CONTRIBUTING.md).
+
+### Pull Request Review Process
+
+To help us manage pull requests efficiently:
+
+1. **Assignee**: The repository owners will assign a main reviewer/caretaker to your PR who will coordinate the review process.
+
+2. **Hyperspace AI Bot**: The repository uses the Hyperspace AI pull request reviewer, to give you, the contributor a first review. Please consider all comments by the bot as it can reduce the manual review-iterations we need on pull requests.
 
 ## Developer Certificate of Origin (DCO)
 Due to legal reasons, contributors will be asked to accept a DCO before they submit the first pull request to this projects, this happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).

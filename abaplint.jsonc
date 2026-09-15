@@ -1,19 +1,12 @@
 {
   "global": {
     "files": "/file-formats/**/*.*",
-    "exclude": ["/examples/"],
-    "skipGeneratedGatewayClasses": true,
-    "skipGeneratedPersistentClasses": true,
-    "skipGeneratedFunctionGroups": true,
-    "useApackDependencies": false,
-    "skipIncludesWithoutMain": false
+    "exclude": ["/examples/"]
   },
   "dependencies": [],
   "syntax": {
     "version": "v702",
-    "errorNamespace": ".",
-    "globalConstants": [],
-    "globalMacros": []
+    "errorNamespace": "."
   },
   "rules": {
     "align_parameters": true,
@@ -130,8 +123,8 @@
     "no_public_attributes": true,
     "no_yoda_conditions": true,
     "object_naming": {
-      "clas": "^(ZC(L|X)\\_AFF\\_|Z\\_AFF\\_EXAMPLE)",
-      "intf": "^(ZIF\\_AFF\\_|Z\\_AFF\\_EXAMPLE)",
+      "clas": "^(ZC(L|X)_AFF_|Z_AFF_EXAMPLE)",
+      "intf": "(^ZIF_AFF_[A-Z0-9]{4}_V[0-9]+$)|(^ZIF_AFF[A-Z0-9_]*_TYPES_V[0-9]+$)|(^Z_AFF_EXAMPLE)",
       "prog": "^Z",
       "fugr": "^Z",
       "tabl": "^Z",
@@ -195,7 +188,7 @@
     "unsecure_fae": true,
     "unused_methods": true,
     "unused_types": {
-      "skipNames": ["ty_main"]
+      "skipNames": ["ty_main","ty_header_80","ty_object_name_40"]
     },
     "unused_variables": true,
     "use_bool_expression": true,

@@ -1,0 +1,42 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Example AIFP for ABAP File Format",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "standard"
+  },
+  "generalInformation": {
+    "namespace": "ZAIFNS",
+    "aifCheck": "BP_EXIST"
+  },
+  "errorMessage": {
+    "messageClass": "/AIF/CREATE_CUST",
+    "messageNumber": "001",
+    "variableAssignments": [
+      {
+        "number": 1,
+        "type": "definedField",
+        "value": "1"
+      }
+    ]
+  },
+  "singleCheckAssignments": [
+    {
+      "description": "Check Business Partner Exist",
+      "id": "10",
+      "scenario": "simpleFieldAndDbCheck",
+      "fieldCheck": {
+        "checkType": "empty"
+      },
+      "databaseCheck": {
+        "table": "BUP000",
+        "whereCondition": "ID = '$1'",
+        "checkType": "compare",
+        "fieldName": "NAME",
+        "operator": "equals",
+        "fieldType": "definedField",
+        "value": "2"
+      }
+    }
+  ]
+}
