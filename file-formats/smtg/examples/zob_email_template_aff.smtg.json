@@ -1,0 +1,21 @@
+{
+  "formatVersion": "",
+  "header": {
+    "description": "Example email template with AFF format",
+    "originalLanguage": "en"
+  },
+  "generalInformation": {
+    "templateDescription": "Example Template",
+    "cdsView": "",
+    "isPredelivered": true,
+    "emailSubject": "Example Email Subject"
+  },
+  "templateContent": [
+    {
+      "name": "Body HTML"
+    },
+    {
+      "name": "Body Plain Text"
+    }
+  ]
+}
